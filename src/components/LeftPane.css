@@ -1,0 +1,245 @@
+/* .left-pane {
+    background: #15202b;
+    color: #fff;
+    min-height: 100vh;
+  
+    .container {
+      position: fixed;
+      border: 1px solid grey;
+    }
+  
+    header svg {
+      height: 1.9em;
+      margin-top: 0.7em;
+      margin-bottom: 0.7em;
+      margin-left: 4em;
+    }
+  
+    nav svg {
+      height: 1.3em;
+      margin-right: 0.9em;
+    }
+  
+    nav {
+      padding-left: 3.3em
+    }
+  
+    nav > *, button.more {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: 500;
+      width: 100%;
+      cursor: pointer;
+  
+      span {
+        display: flex;
+        align-items: center;
+        height: 2.4em;
+        width: fit-content;
+        padding: 0 0.7em;
+      }
+  
+      &:hover span {
+        color: #1da1f2;
+        border-radius: 1.5em;
+        background: #192734;
+      }
+    }
+  
+    nav .selected {
+      color: #1da1f2;
+    }
+  
+    button {
+      background: unset;
+      border: unset;
+    }
+  
+    button.tweet {
+      display: block;
+      background: #1da1f2;
+      color: #fff;
+      width: 14em;
+      height: 3em;
+      border-radius: 1.5em;
+      font-size: 1em;
+      margin-top: 0.5em;
+      margin-left: 3.7em;
+      cursor: pointer;
+  
+      &:hover {
+        background: #0f90e5;
+      }
+    }
+  
+    footer {
+      position: fixed;
+      bottom: 1.5em;
+      margin-left: 0.5em;
+  
+      button.account {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        color: #fff;
+        font-size: 1em;
+  
+        .photo {
+          border-radius: 100%;
+          height: 2.5em;
+          width: 2.5em;
+          background: #192734;
+          margin-left: 3.5em;
+  
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+        }
+  
+        .name {
+          font-weight: 700;
+        }
+  
+        .username {
+          color: #8899a6;
+        }
+      }
+    }
+  }
+   */
+
+   .tweet{
+    background: #1da1f2;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 22px;
+   }
+   .tweet:hover{
+    background: #0f90e5;
+   }
+
+ .container{
+  height: 100vh;
+  width: 300px;
+  background-color: black;
+  border-right: 1px solid grey;
+ }  
+ .leftpannel{
+   text-align: center;
+   margin-left: 80px;
+   padding-top: 50px;
+ }
+   
+.icon, .link_text{
+    font-size: 20px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+  
+}
+main{
+  width: 100%;
+  padding: 20px;
+  
+  /* background: white; */
+}
+
+
+
+
+.name {
+  font-weight: 700;
+  background-color:black;
+}
+
+.username {
+  color: black;
+}
+.photo {
+  /* border-radius: 100%;
+  height: 2.5em;
+  width: 2.5em;
+  background: #192734;
+  margin-left: 3.5em; */
+  
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+button.account {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: #fff;
+  font-size: 1em;
+}
+
+
+/* .photo {
+  border-radius: 100%;
+  height: 2.5em;
+  width: 2.5em;
+  background: #192734;
+  margin-left: 3.5em;
+} */
+  /* img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  button.account {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: #fff;
+    font-size: 1em;
+  } */
+/* 
+  button.tweet {
+    display: block;
+    background: #1da1f2;
+    color: #fff;
+    width: 14em;
+    height: 3em;
+    border-radius: 1.5em;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-left: 3.7em;
+    cursor: pointer;
+  }
+
+  button.tweet:hover{
+    
+      background: #0f90e5;
+  } */
